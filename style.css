@@ -3,6 +3,10 @@ body {
     background: grey;
     text-align: center;
     font-family: verdana;
+    background-image: url("images/ballpattern.png");
+    background-size: 70%;
+    background-position: center;
+    background-repeat: repeat;
 }
 
 .container {
@@ -13,8 +17,11 @@ body {
     background: #1B244A;
     margin: 50px auto 5px;
     border-radius: 10px;
-    border: 2px solid #eeeeee;
-
+    border: 5px solid #ffffff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 20px black;
 }
 
 .point-txt {
@@ -76,7 +83,8 @@ button:hover, #new-game-btn:hover {
     height: 100px;
     font-size: 30px;
     font-family: verdana;
-    border: solid 2px white;
+    border: solid 5px white;
+    box-shadow: 0 0 20px black;
 }
 
 /*div {*/
