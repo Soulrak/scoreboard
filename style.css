@@ -92,12 +92,14 @@ button:hover, #reset-btn:hover {
 }
 
 button:active, #reset-btn:active {
-    border: solid 5px #333;
+    border: solid 6px #333;
     color: #333;
     background: grey;
+    font-size: 40px;
 } 
 
 button:active {
     border: solid 2px #333;
+    font-size: 15px;
 } 
 
