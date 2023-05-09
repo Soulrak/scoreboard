@@ -3,6 +3,7 @@ let guestScore = document.getElementById("guest-score")
 let home = 0
 let guest = 0
 
+// HOME buttons ---> +1, +2, +3
 
 function add1home() {
 	home += 1
@@ -19,6 +20,8 @@ function add3home() {
 	homeScore.textContent = home
 }
 
+// GUEST buttons ---> +1, +2, +3
+
 function add1guest() {
 	guest += 1
 	guestScore.textContent = guest
@@ -33,6 +36,8 @@ function add3guest() {
 	guest += 3
 	guestScore.textContent = guest
 }
+
+// RESET button
 
 function reset() {
 	home = 0

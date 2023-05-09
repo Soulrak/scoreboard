@@ -70,23 +70,34 @@ button {
     font-family: CursedTimer;
 }
 
-button:hover, #new-game-btn:hover {
+button:hover, #reset-btn:hover {
     background: #9AABD8;
-    border: solid 2px #333;
+    border: solid 2px #fff;
     color: #333;
     cursor: pointer;
     box-shadow: 0 0 10px black;
 }
 
-#new-game-btn {
+#reset-btn:hover {
+    border: solid 5px #fff;
+}
+
+#reset-btn {
     width: 200px;
     height: 100px;
-    font-size: 30px;
+    font-size: 45px;
     font-family: verdana;
-    border: solid 5px white;
+    border: solid 5px #fff;
     box-shadow: 0 0 20px black;
 }
 
-/*div {*/
-    border: dotted white 1px;
-}
+button:active, #reset-btn:active {
+    border: solid 5px #333;
+    color: #333;
+    background: grey;
+} 
+
+button:active {
+    border: solid 2px #333;
+} 
+
