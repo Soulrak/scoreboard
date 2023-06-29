@@ -95,6 +95,7 @@ button:hover, #reset-btn:hover {
 
 .new-game {
     margin: 0 auto;
+    width: 575px;
 }
 
 button:active, #reset-btn:active {
