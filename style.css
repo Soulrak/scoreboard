@@ -7,6 +7,7 @@ body {
     background-size: 70%;
     background-position: center;
     background-repeat: repeat;
+    user-select: none;
 }
 
 .container {
@@ -15,7 +16,7 @@ body {
     height: 385px;
     width: 575px;
     background: #1B244A;
-    margin: 50px auto 5px;
+    margin: 50px auto 20px;
     border-radius: 10px;
     border: 5px solid #ffffff;
     background-size: cover;
@@ -90,6 +91,10 @@ button:hover, #reset-btn:hover {
     font-family: verdana;
     border: solid 5px #fff;
     box-shadow: 0 0 20px black;
+}
+
+.new-game {
+    margin: 0 auto;
 }
 
 button:active, #reset-btn:active {
